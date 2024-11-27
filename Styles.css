@@ -1,0 +1,286 @@
+body{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    max-width: 100vw;
+}
+
+.navbar{
+    width: 100vw;
+    height: 600px;
+    background-image: linear-gradient(120deg,#0335fc,#16fa6d);
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white; 
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    padding-right: 50px;
+}
+
+.btn1{
+    background-color: #05f18f;
+    border-radius: 1.3rem;
+    border: none;
+    margin-right: 100px;
+    padding: 0.6rem;
+}
+
+.btn1 a{
+    color: white;
+}
+
+li a:hover{
+    background: none;
+    color: aquamarine;
+    transition: 0.7s;
+}
+
+.btn1 a:hover{
+    background: none;
+    color: aquamarine;
+    transition: 0.7s;
+}
+
+.HeadPara{
+    color: aquamarine;
+    font-size: 3rem;
+    margin-left: 5%;
+    line-height: 1.4;
+    float: left;
+}
+
+.Image_1{
+    float: right;
+    margin-right: 5rem;
+}
+
+.Para_2{
+    float: left;
+    margin-left: 70px;
+    margin-top: -24px;
+    color: white;
+}
+
+.btn2{
+    float: left;
+    margin-top: 50px;
+    margin-left: -400px;
+    background: none;
+    border-color: whitesmoke;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+.btn2 a{
+    color: white;
+}
+
+.btn2 a:hover{
+    color: aquamarine;
+    transition: 0.7s;
+}
+
+.Advertisment{
+    padding-top: 20px;
+    color:lightslategray;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-color:lightslategray;;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.logos img{
+    margin: auto;
+    /* margin-top: -90px; */
+    margin-left: 6%;
+    /* padding-bottom: 100px; */
+    display: inline-block;
+    width: 8rem;
+    aspect-ratio: 2/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+   
+}
+
+h3{
+    text-align: center;
+    color:lightslategray;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-color:lightslategray;
+}
+
+.Div_1{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.Div_2{
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.Div_3{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Para_3{
+    text-align: center;
+    line-height: 1.4;
+}
+
+.Para_4{
+    text-align: center;
+    line-height: 1.4;
+}
+
+.Para_5{
+    text-align: center;
+    line-height: 1.4;
+}
+
+.icon{
+    padding-left: 40%;
+    aspect-ratio: 2/3;
+    width: 15%;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+.FooterDiv{
+    background-color: #0a027c;
+    max-width: 100%;
+}
+
+h3{
+    padding-top: 50px;
+}
+
+h5{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.Reliable{
+    color: aqua;
+    font-size: 60px;
+}
+
+.PRO{
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    padding: auto;
+    width: 250px;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+    line-height: 1.3;
+}
+
+.PREMIUM{
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    padding: auto;
+    width: 250px;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    line-height: 1.3;
+}
+
+.ENTERPRISE{
+    background-color:white;
+    text-align: center;
+    display: inline-block;
+    padding: auto;
+    width: 250px;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    line-height: 1.3;
+}
+
+.FooterDiv span{
+    font-weight: bolder;
+}
+
+.btn3{
+    background-color:black;
+    padding: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 20px;
+}
+
+.btn3 a{
+    background-color: black;
+    color: white;
+}
+
+.btn3:hover{
+    /* color: white; */
+    border-color: darkgray;
+}
+
+.team{
+    text-align:center ;
+}
+.Teammates{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+    
+.Teammates img{
+        width: 180px;
+        aspect-ratio: 2/2;
+}
+
+h6{
+        font-size: 25px;
+        color: #0335fc;
+        margin: 0;
+}
+
+.skill{
+    /* margin-top: 100px; */
+    margin: 0px;
+}
